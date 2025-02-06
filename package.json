@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "firebase": "^11.2.0"
+  },
+  "name": "aa-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abigail-ambaw/my-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abigail-ambaw/my-website/issues"
+  },
+  "homepage": "https://github.com/abigail-ambaw/my-website#readme",
+  "description": ""
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 text-gray-900">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 w-full bg-black text-white shadow-md z-50">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="text-1xl font-bold text-lighblue-600">
+      
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <div class="md:hidden">
+      <button class="text-2xl focus:outline-none" id="menu-button">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <ul class="hidden md:flex space-x-6">
+      <li><a href="index.html" class="hover:text-blue-400 transition-colors">Home</a></li>
+      <li><a href="about.html" class="hover:text-blue-400 transition-colors">About</a></li>
+      <li><a href="services.html" class="hover:text-blue-400 transition-colors">Services</a></li>
+      <li><a href="projects.html" class="hover:text-blue-400 transition-colors">Projects</a></li>
+      <li><a href="contact.html" class="hover:text-blue-400 transition-colors">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Mobile Navigation Menu (Initially Hidden) -->
+  <ul class="md:hidden absolute top-0 left-0 w-full bg-black text-white flex flex-col items-center py-6 space-y-6 hidden" id="mobile-menu">
+    <li><a href="index.html" class="hover:text-blue-400 transition-colors">Home</a></li>
+    <li><a href="about.html" class="hover:text-blue-400 transition-colors">About</a></li>
+    <li><a href="services.html" class="hover:text-blue-400 transition-colors">Services</a></li>
+    <li><a href="projects.html" class="hover:text-blue-400 transition-colors">Projects</a></li>
+    <li><a href="contact.html" class="hover:text-blue-400 transition-colors">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- JavaScript to Toggle the Mobile Menu -->
+<script>
+  // Get references to the menu button and the mobile menu
+  const menuButton = document.getElementById('menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  // Add event listener to the menu button
+  menuButton.addEventListener('click', () => {
+    // Toggle the 'hidden' class on the mobile menu
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+  <div class="container mx-auto p-6 mt-28">
+  <header class="mb-8 text-center">
+    <h1 class="text-3xl font-bold text-gray-800 mb-4">My Services</h1>
+    <p class="text-black-600 text-left">
+       As an IT (Information Technology) expert, I offer tailored consulting, web development, and tech support to optimize your business’s technology and enhance cybersecurity. I specialize in custom website design to elevate your online presence and provide a seamless user experience. With experience volunteering in senior communities, I am passionate about making technology accessible for both businesses and individuals, simplifying the digital world for everyone.
+    </p>
+  </header>
+  <section class="mb-12">
+    <h2 class="flex items-center gap-2 text-2xl font-semibold text-gray-800 mb-5">
+      <i class="fas fa-desktop text-blue-500"></i>
+      Professional Website Design
+    </h2>
+    <p class="text-black-700 mb-7">
+      Custom-built websites designed to meet the specific needs of industries such as homecare, daycare, and restaurants.
+    </p>
+    <ul class="list-disc pl-6 text-gray-700 space-y-2">
+      <li>Mobile-friendly design</li>
+      <li>Fast loading and optimized</li>
+      <li>User-centric navigation</li>
+    </ul>
+  </section>
+
+
+
+  <section class="mb-12">
+    <h2 class="flex items-center gap-2 text-2xl font-semibold text-gray-800 mb-4">
+      <i class="fas fa-tools text-green-500"></i>
+      Website Maintenance
+    </h2>
+    <p class="text-black-700">
+      Ongoing updates, bug fixes, and feature enhancements to keep your website secure and fully functional.
+    </p>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="flex items-center gap-2 text-2xl font-semibold text-gray-800 mb-4">
+      <i class="fas fa-briefcase text-purple-500"></i>
+      Recent Work
+    </h2>
+    <div class="space-y-6">
+      <div class="border p-4 rounded-lg">
+        <h3 class="text-xl font-semibold text-gray-800">Faith Adult Home</h3>
+        <p class="text-gray-700 mb-2">
+          Designed a compassionate adult health care service website with intuitive navigation for quick access to essential information.
+        </p>
+        <a href="https://faithadulthome.com" class="text-blue-600 underline">
+          Visit Website
+        </a>
+      </div>
+      <div class="border p-4 rounded-lg">
+        <h3 class="text-xl font-semibold text-gray-800">Auburn Village AFH</h3>
+        <p class="text-gray-700 mb-2">
+          Created a healthcare facility website that simplifies service exploration and contact options for user engagement.
+        </p>
+        <a href="https://auburnvillageafh.com" class="text-blue-600 underline">
+          Visit Website
+        </a>
+      </div>
+    </div>
+ <div class="mt-6 text-center">
+ <a href="index.html#testimonials" class="text-blue-600 hover:underline">Read our testimonials</a>
+</a>
+</div>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4">
+      IT Support &amp; Troubleshooting Services
+    </h2>
+    <ul class="list-disc pl-6 text-gray-700 space-y-2">
+      <li>
+        Device Setup &amp; Configuration: Quick setup and configuration to get your device running smoothly, whether it’s new or reset.
+      </li>
+      <li>
+        Software Installation &amp; Updates: Keep your device updated with the latest software and security patches.
+      </li>
+      <li>
+        Slow Computer &amp; Device Fixes: Optimize performance and speed up slow devices with expert diagnostics.
+      </li>
+      <li>
+        Wi-Fi &amp; Network Troubleshooting: Fix connection issues and ensure stable, secure Wi-Fi across all devices.
+      </li>
+      <li>
+        Email &amp; Account Setup: Securely set up and sync your email and online accounts across devices.
+      </li>
+      <li>
+        Virus &amp; Malware Removal: Remove viruses and malware, and implement security measures to protect your device.
+      </li>
+      <li>
+        Printer &amp; Peripheral Setup: Easily set up printers and other peripherals to work seamlessly with your system.
+      </li>
+      <li>
+        Data Backup &amp; Recovery: Safeguard your data with backups and recover lost files quickly.
+      </li>
+    </ul>
+  </section>
+
+  <section class="mb-12">
+    <h2 class="flex items-center gap-2 text-2xl font-semibold text-gray-800 mb-4">
+      <i class="fas fa-comments text-yellow-500"></i>
+      IT Consultation Services
+    </h2>
+    <ul class="list-disc pl-6 text-gray-700 space-y-2">
+      <li>
+        <strong>Personalized Tech Training:</strong> One-on-one or group sessions designed to help clients gain confidence and proficiency with technology.
+      </li>
+      <li>
+        <strong>Tech Strategy for Small Businesses:</strong> Expert advice on choosing the right devices and software to streamline operations.
+      </li>
+      <li>
+        <strong>Cloud Storage &amp; File Management:</strong> Guidance on setting up and organizing cloud storage for easier access and streamlined workflows.
+      </li>
+      <li>
+        <strong>Remote Tech Support:</strong> Troubleshooting and support via remote services, perfect for those who need quick solutions without an in-person visit.
+      </li>
+      <li>
+        <strong>Cloud Solutions Consulting:</strong> Cloud Migration advising businesses or individuals on how to transition from local systems to cloud platforms (AWS, Google Cloud, Microsoft Azure) for improved scalability and cost efficiency.
+      </li>
+    </ul>
+  </section>
+
+
+  <section class="mb-12">
+    <h2 class="flex items-center gap-2 text-2xl font-semibold text-gray-800 mb-4">
+      <i class="fas fa-check-circle text-teal-500"></i>
+      Why Choose Me?
+    </h2>
+    <ul class="list-disc pl-6 text-gray-700 space-y-2">
+      <li>
+        <strong>Fast Response:</strong> Get quick solutions with minimal downtime.
+      </li>
+      <li>
+        <strong>Expert Technicians:</strong> Experienced support for a variety of devices and systems.
+      </li>
+      <li>
+        <strong>Affordable:</strong> Transparent pricing, with no hidden fees.
+      </li>
+      <li>
+        <strong>Remote &amp; In-Person Options:</strong> Flexible support to suit your preferences.
+      </li>
+    </ul>
+    <a href="contact.html" class="mt-6 inline-block bg-indigo-600 text-white text-xl font-semibold py-3 px-8 rounded-lg hover:bg-indigo-700 transition-colors">
+    Contact Me
+  </a>
+  </section>
+</div>
+
+
+ <!-- Footer -->
+ <footer class="bg-gray-900 text-white py-12 mt-32">
+  <div class="container mx-auto px-4 text-center">
+    <div class="flex justify-center space-x-6 mb-6">
+      <!-- Email Link with Image Icon -->
+      <a href="mailto:abigail.ambaw@gmail.com" class="hover:text-blue-400">
+        <img src="icons8-gmail-48.png" alt="Gmail" class="w-6 h-6"/>
+      </a>
+
+       <!-- GitHub Link with Image Icon -->
+      <a href="https://github.com/abigail-ambaw" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400">
+  <div class="bg-white p-05 rounded-full">
+    <img src="icons8-github-64.png" alt="GitHub" class="w-6 h-6"/>
+  </div>
+</a>
+      <!-- Phone Link with Image Icon -->
+      <a href="tel:+4152318104" class="hover:text-blue-400">
+        <img src="icons8-phone-48.png" alt="Phone" class="w-6 h-6"/>
+      </a>
+
+      <!-- LinkedIn Link with Image Icon -->
+      <a href="https://www.linkedin.com/in/abigailambaw" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400">
+        <img src="icons8-linkedin-48.png" alt="LinkedIn" class="w-6 h-6"/>
+      </a>
+    </div>
+    <p class="text-sm text-gray-400">
+      &copy; 2025 Abigail Ambaw. All rights reserved.
+    </p>
+  </div>
+</footer>
+ <script>
+    document.getElementById("mobile-menu-toggle").addEventListener("click", function() {
+      document.getElementById("mobile-menu").classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>

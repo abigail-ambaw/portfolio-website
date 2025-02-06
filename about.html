@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 text-gray-900">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 w-full bg-black text-white shadow-md z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-xl font-bold text-white"></div>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="md:hidden text-2xl focus:outline-none" aria-label="Toggle Mobile Menu">
+        <span id="mobile-menu-toggle">&#9776;</span>
+      </button>
+
+      <!-- Desktop Navigation -->
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="index.html" class="hover:text-blue-400 transition-colors">Home</a></li>
+        <li><a href="about.html" class="hover:text-blue-400 transition-colors">About</a></li>
+        <li><a href="services.html" class="hover:text-blue-400 transition-colors">Services</a></li>
+        <li><a href="projects.html" class="hover:text-blue-400 transition-colors">Projects</a></li>
+        <li><a href="contact.html" class="hover:text-blue-400 transition-colors">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <ul id="mobile-menu" class="md:hidden absolute top-16 left-0 right-0 w-full bg-black text-white flex flex-col items-center py-6 space-y-6 hidden">
+      <li><a href="index.html" class="hover:text-blue-400 transition-colors">Home</a></li>
+      <li><a href="about.html" class="hover:text-blue-400 transition-colors">About</a></li>
+      <li><a href="services.html" class="hover:text-blue-400 transition-colors">Services</a></li>
+      <li><a href="projects.html" class="hover:text-blue-400 transition-colors">Projects</a></li>
+      <li><a href="contact.html" class="hover:text-blue-400 transition-colors">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mx-auto px-4 pt-24 max-w-6xl">
+    <!-- Header Section -->
+    <div class="text-center mb-10">
+      <h1 class="text-3xl font-bold text-gray-900 mb-2 sm:text-4xl mt-10">
+        About Me
+      </h1>
+      <p class="mt-4 text-black-600 leading-relaxed text-left px-6">
+  I am a dedicated IT and cybersecurity professional with a strong foundation in system administration, identity and access management (IAM), and technical support. Over the course of my career, I have made significant contributions to cybersecurity teams, focusing on patch management, vulnerability managments, and user access controls. In addition to my technical expertise, I have honed my software development skills through the creation of real-time chat applications and a property rental web app.
+</p>
+    </div>
+
+    <!-- Skills Grid -->
+    <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
+      <div>
+        <!-- Cybersecurity Skills -->
+        <div class="bg-white shadow-md rounded-lg p-6 mb-6">
+          <div class="flex items-center mb-4">
+            <span class="text-blue-600 mr-3 text-2xl">&#x1F6E1;</span>
+            <h2 class="text-xl font-semibold text-gray-800">Cybersecurity Skills</h2>
+          </div>
+          <ul class="list-disc pl-5">
+            <li>Threat Detection and Incident Response</li>
+            <li>Vulnerability Management</li>
+            <li>Penetration Testing</li>
+            <li>Identity and Access Management (IAM)</li>
+            <li>Security Operations (SIEM Tools)</li>
+            <li>Firewall Configuration</li>
+            <li>Network Security</li>
+            <li>Endpoint Security</li>
+            <li>Incident Management</li>
+          </ul>
+        </div>
+        
+        <!-- Cloud Computing Skills -->
+        <div class="bg-white shadow-md rounded-lg p-6 mb-6">
+          <div class="flex items-center mb-4">
+            <span class="text-blue-600 mr-3 text-2xl">&#x2601;</span>
+            <h2 class="text-xl font-semibold text-gray-800">Cloud Computing Skills</h2>
+          </div>
+          <ul class="list-disc pl-5">
+            <li>AWS Cloud Architecture</li>
+            <li>Cloud Security Best Practices</li>
+            <li>AWS Monitoring and Logging</li>
+            <li>Data Encryption</li>
+            <li>Disaster Recovery</li>
+            <li>Containerization (Docker, Kubernetes)</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div>
+        <!-- IT Administration Skills -->
+        <div class="bg-white shadow-md rounded-lg p-6 mb-6">
+          <div class="flex items-center mb-4">
+            <span class="text-blue-600 mr-3 text-2xl">&#x1F4BB;</span>
+            <h2 class="text-xl font-semibold text-gray-800">IT Administration Skills</h2>
+          </div>
+          <ul class="list-disc pl-5">
+             <li>IT consulting</li>
+            <li>Linux and Windows Server Administration</li>
+            <li>System Monitoring</li>
+            <li>Network Configuration</li>
+            <li>Server Hardening</li>
+            <li>Patch Management</li>
+            <li>Configuration Management</li>
+          </ul>
+        </div>
+        
+        <!-- Software Development -->
+        <div class="bg-white shadow-md rounded-lg p-6 mb-6">
+          <div class="flex items-center mb-4">
+            <span class="text-blue-600 mr-3 text-2xl">&#x1F4BB;</span>
+            <h2 class="text-xl font-semibold text-gray-800">Software Development</h2>
+          </div>
+          <ul class="list-disc pl-5">
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>Version Control (Git)</li>
+            <li>Scripting (Bash, Python)</li>
+            <li>Database Management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="mt-10 bg-blue-50 p-6 rounded-lg">
+      <div class="flex items-center mb-4">
+        <span class="text-blue-600 mr-3 text-2xl">&#x1F393;</span>
+        <h3 class="text-xl font-semibold text-gray-800">Education</h3>
+      </div>
+      <p class="text-gray-700">
+        Master's in Cloud Computing and Architecture
+        <br />
+        Bachelor's in Computer Science
+      </p>
+    </div>
+
+    <!-- Professional Passion Section -->
+    <div class="mt-6 bg-green-50 p-6 rounded-lg">
+      <div class="flex items-center mb-4">
+        <span class="text-green-600 mr-3 text-2xl">&#x1F3C6;</span>
+        <h3 class="text-xl font-semibold text-gray-800">Professional Passion</h3>
+      </div>
+      <p class="text-gray-700">
+        Passionate about cybersecurity and cloud security, committed to protecting digital
+        assets and creating secure, scalable infrastructures. Continuously learning and
+        adapting to emerging threats and technologies.
+      </p>
+    </div>
+
+    <!-- Footer -->
+<footer class="bg-gray-900 text-white py-12 mt-32">
+  <div class="container mx-auto px-4 text-center">
+    <div class="flex justify-center space-x-6 mb-6">
+      <!-- Email Link with Image Icon -->
+      <a href="mailto:abigail.ambaw@gmail.com" class="hover:text-blue-400">
+        <img src="icons8-gmail-48.png" alt="Gmail" class="w-6 h-6"/>
+      </a>
+
+       <!-- GitHub Link with Image Icon -->
+      <a href="https://github.com/abigail-ambaw" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400">
+  <div class="bg-white p-05 rounded-full">
+    <img src="icons8-github-64.png" alt="GitHub" class="w-6 h-6"/>
+  </div>
+</a>
+      <!-- Phone Link with Image Icon -->
+      <a href="tel:+4152318104" class="hover:text-blue-400">
+        <img src="icons8-phone-48.png" alt="Phone" class="w-6 h-6"/>
+      </a>
+
+      <!-- LinkedIn Link with Image Icon -->
+      <a href="https://www.linkedin.com/in/abigailambaw" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400">
+        <img src="icons8-linkedin-48.png" alt="LinkedIn" class="w-6 h-6"/>
+      </a>
+    </div>
+    <p class="text-sm text-gray-400">
+      &copy; 2025 Abigail Ambaw. All rights reserved.
+    </p>
+  </div>
+</footer>
+  </div>
+
+  <script>
+    document.getElementById("mobile-menu-toggle").addEventListener("click", function() {
+      document.getElementById("mobile-menu").classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>
